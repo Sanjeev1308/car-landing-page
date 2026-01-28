@@ -12,7 +12,10 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "homepage": "https://Sanjeev1308.github.io/car-landing-page",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
