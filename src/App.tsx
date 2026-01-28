@@ -15,6 +15,7 @@ import DriveChain from "./pages/DriveChain";
 import Garage from "./pages/Garage";
 import NotFound from "./pages/NotFound";
 import { NeonCursor } from "./components/effects";
+import Porsche911GT3 from "./pages/Porsche911GT3";
 
 const queryClient = new QueryClient();
 
@@ -42,6 +43,7 @@ const App = () => (
               <Route path="/car/:id" element={<CarDetail />} />
               <Route path="/drivechain" element={<DriveChain />} />
               <Route path="/garage" element={<Garage />} />
+              <Route path="/porche-911" element={<Porsche911GT3 />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
